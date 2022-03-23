@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form * {
+    margin: 5px 0;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+}
+
+form input {
+    border-bottom: 2px black solid;
+}
